@@ -1,0 +1,12 @@
+camunda.bpm:
+  default-serialization-format: application/json
+  admin-user:
+    id: demo
+    password: demo
+server:
+  port: 8085
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
